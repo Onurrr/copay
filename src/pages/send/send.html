@@ -11,7 +11,7 @@
       <span class="send-heading" translate>Recipient</span>
       <div class="search-wrapper" [ngClass]="{'focus': searchFocus}">
         <ion-icon class="bitcoin-icon" name="search-btc"></ion-icon>
-        <ion-input placeholder="{{'Search or enter bitcoin address' | translate}}" (blur)="searchBlurred()" (focus)="searchInFocus()"
+        <ion-input placeholder="{{'Search or enter viacoin address' | translate}}" (blur)="searchBlurred()" (focus)="searchInFocus()"
           [(ngModel)]="search" (ngModelChange)="findContact(search)"></ion-input>
         <ion-icon class="scan-icon" (click)="openScanner()">
           <img src="assets/img/scan-ico.svg">
@@ -92,6 +92,6 @@
     </div>
   </div>
   <div *ngIf="!hasBtcWallets && !hasBchWallets" class="no-wallet-message">
-    <span translate>To get started, you'll need to create a bitcoin wallet and get some bitcoin.</span>
+    <span translate>To get started, you'll need to create a viacoin wallet and get some viacoin.</span>
   </div>
 </ion-content>
