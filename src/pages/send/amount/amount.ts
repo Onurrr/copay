@@ -153,7 +153,7 @@ export class AmountPage {
 
     if (hasBTCWallets) {
       this.availableUnits.push({
-        name: 'Bitcoin',
+        name: 'Viacoin',
         id: 'via',
         shortName: 'VIA',
       });
