@@ -1,15 +1,15 @@
 {
   "name": "*PACKAGENAME*",
   "description": "*DESCRIPTION*",
-  "author": "BitPay",
+  "author": "Viacoin team",
   "version": "*VERSION*",
   "keywords": [
-    "bitcoin",
+    "viacoin",
     "wallet",
-    "bitpay",
+    "viapay",
     "copay",
     "multisignature",
-    "bitcore"
+    "viacore"
   ],
   "main": "www/index.html",
   "title": "*USERVISIBLENAME*",
@@ -116,7 +116,7 @@
     "@types/papaparse": "^4.1.33",
     "angular2-moment": "^1.7.1",
     "bitauth": "git+https://github.com/bitpay/bitauth.git#copay",
-    "bitcore-wallet-client": "6.7.1",
+    "bitcore-wallet-client": "https://github.com/viacoin/viacore-wallet-client.git",
     "buffer-compare": "^1.1.1",
     "cordova-android": "7.0.0",
     "cordova-clipboard": "^1.1.1",
