@@ -163,6 +163,13 @@
       </ion-note>
     </button>
 
+    <button ion-item *ngFor="let service of exchangeServices" (click)="openIntegrationSettings(service.name)">
+      <ion-icon item-start>
+        <img src="{{service.icon}}" class="icon-services" />
+      </ion-icon>
+      <span>{{service.title || service.name}}</span>
+    </button>
+
     <ion-item-divider>More</ion-item-divider>
 
     <button ion-item (click)="openAdvancedPage()">
