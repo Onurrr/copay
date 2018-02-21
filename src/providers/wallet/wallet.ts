@@ -1328,7 +1328,7 @@ export class WalletProvider {
     if (coin == 'bch') {
       return 'bitcoincash';
     } else {
-      return 'bitcoin';
+      return 'viacoin';
     }
   }
 
